@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 97de8dd1d2aa970439a596bc921fb12e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1807125615787039003
+    second: tiles_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dirt
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 495
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19de794c23341910800000000000000
+      internalID: 1807125615787039003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 495
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f5f671960c85b41b1930889d29517f
+      internalID: -1000081880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_slope_right
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 495
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -2.5, y: -2.5}
+        - {x: 2.5, y: -2.5}
+        - {x: 2.5, y: 2.5}
+        - {x: 2.5, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0025a0c03d25e1748ac5a7650deecc8f
+      internalID: 887452483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 490
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f8f39a6480d3f4b928653666a3bcf7
+      internalID: -2060815814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_slope_left
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 495
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -2.5, y: -2.5}
+        - {x: 2.5, y: -2.5}
+        - {x: -2.5, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b4865afd1c07443ab5f36e63596141
+      internalID: 699737366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedrock
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 495
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d2a0c4e78dcac479d1d75f7471fcbd
+      internalID: -1162694891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 485
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -2.5, y: 2.5}
+        - {x: 2.5, y: 2.5}
+        - {x: 2.5, y: 0.5}
+        - {x: -2.5, y: 0.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41586e6f1a717194f8c1991e2677e443
+      internalID: 1437089780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barbed_wire
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 475
+        width: 5
+        height: 5
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 2.5, y: 0.5}
+        - {x: 1.5, y: -2.5}
+        - {x: -1.5, y: -2.5}
+        - {x: -2.5, y: 0.5}
+        - {x: -0.5, y: 2.5}
+        - {x: 0.5, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0bed2a18b6d6aa3963caef68207881
+      internalID: 1994220387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_pillar_a
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 470
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13514e3a16a5227197cb5c85ade73fc
+      internalID: 749560512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_pillar_b
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 465
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adeaadbfdc2d094a18ae1a6f5bb6b868
+      internalID: 1420756895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tile
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 470
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9a908a6b00d2a8092052372091e2ea
+      internalID: 1593764244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_beam
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 470
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -2.5, y: -0.5}
+        - {x: 2.5, y: -0.5}
+        - {x: 2.5, y: 2.5}
+        - {x: -2.5, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2ec8b49d37649a3a1d822fd20201c2
+      internalID: 1788337485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_window
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 470
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e25a005ed47ea939430fe28a86c438
+      internalID: -561192435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_slope_right
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 490
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -2.5, y: -2.5}
+        - {x: 2.5, y: -2.5}
+        - {x: 2.5, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef14baa237ec9a0e9a1365a2ff2a854
+      internalID: -1566850622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_slope_left
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 490
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -2.5, y: -2.5}
+        - {x: 2.5, y: -2.5}
+        - {x: -2.5, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8935bcf44288382a083cb8f1cfa8a6b0
+      internalID: 1072151936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge_slope_right
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 485
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -1.5, y: -2.5}
+        - {x: 2.5, y: 1.5}
+        - {x: 2.5, y: 2.5}
+        - {x: -2.5, y: -2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f482e13d62450aa906481ecfb26eeb
+      internalID: -2001988521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge_slope_left
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 485
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 1.5, y: -2.5}
+        - {x: 2.5, y: -2.5}
+        - {x: -2.5, y: 2.5}
+        - {x: -2.5, y: 1.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527fee2e5173d83ee8d19c1208b6ffea
+      internalID: -954129182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_dirt
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 495
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f92116ece57b2e68ede13cb77d018e
+      internalID: -859367082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_stone
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 490
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5bd0d1ee9d41544a7d9c0790d7c0e1
+      internalID: -733495008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_bricks_a
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 470
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b3c61ddc50671d295c513d3364e0e4
+      internalID: -1432504619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_bricks_b
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 470
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a680ef550413f94bf3572e7d2c67ed
+      internalID: 531386146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_bricks_c
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 470
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea4293682d94b67592817d361f99755
+      internalID: 134194540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric_fence
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 455
+        width: 15
+        height: 5
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fde5a3ddb5f23c9ad91eb65ec37f71
+      internalID: 334001809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_a
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 465
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8023f6641b8a1eb7598baebd2706049e
+      internalID: 1380183714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_tiles_b
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 465
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020f086d16e6250aea244fe2274fd54c
+      internalID: 1767008373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_stone_tile
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 460
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d1d851f985f96209b86faa81403218
+      internalID: -1821561870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone_slab
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 465
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -2.5, y: -2.5}
+        - {x: 2.5, y: -2.5}
+        - {x: 2.5, y: -0.5}
+        - {x: -2.5, y: -0.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce55273b0e14996c9e21f45bfc5c298
+      internalID: -835995536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 95086a98595a3dc4c96d0ff08f3c8be7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      barbed_wire: 1994220387
+      bedrock: -1162694891
+      bridge: 1437089780
+      bridge_slope_left: -954129182
+      bridge_slope_right: -2001988521
+      dirt: 1807125615787039003
+      electric_fence: 334001809
+      grass: -1000081880
+      grass_slope_left: 699737366
+      grass_slope_right: 887452483
+      hard_dirt: -859367082
+      hard_stone: -733495008
+      hard_stone_tile: -1821561870
+      stone: -2060815814
+      stone_beam: 1788337485
+      stone_bricks_a: -1432504619
+      stone_bricks_b: 531386146
+      stone_bricks_c: 134194540
+      stone_pillar_a: 749560512
+      stone_pillar_b: 1420756895
+      stone_slab: -835995536
+      stone_slope_left: 1072151936
+      stone_slope_right: -1566850622
+      stone_tile: 1593764244
+      stone_tiles_a: 1380183714
+      stone_tiles_b: 1767008373
+      stone_window: -561192435
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

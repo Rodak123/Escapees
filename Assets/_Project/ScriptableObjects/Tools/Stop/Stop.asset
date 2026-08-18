@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7b9ebc33a11b35fb924ddac019c75d, type: 3}
+  m_Name: Stop
+  m_EditorClassIdentifier: Assembly-CSharp::GameJam.ToolSO
+  toolName: Stop
+  toolDescription: Stop sign turns units around
+  toolIcon: {fileID: 803544689, guid: 0d859b6d73244404cba69e072e4c0f7c, type: 3}
+  toolTraitPrefab: {fileID: 4871057637406696577, guid: 4f0b58c11bdf4190987c11a333485f86, type: 3}
+  isSingleUse: 1
