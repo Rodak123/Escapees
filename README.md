@@ -32,17 +32,17 @@ Starting area.
 Only one escapee.
 The player will try out his tools and the escapee will prepare the escape plan.
 
-### Area 1: Prison
+### Area 1: Prison [ unfinished ]
 
 Inside the prison building.
 The player frees escapees from prison cells, workout rooms and their goal is to disable the prison generator.
 
-### Area 2: Prison Yard
+### Area 2: Prison Yard [ not started ]
 
 Inside the prison area.
 The player helps the escapees find their way though the convoluted prison yards and through its multiple gates (what are they in here for??)
 
-## Area 3: On the run
+### Area 3: On the run [ not started ]
 
 Outside the prison completely.
 The player navigates the escapees through difficult terrain.
