@@ -1,5 +1,11 @@
 # Escapees
 
+<a href="https://rodakdev.itch.io/escapees" title="Escapees on Itch">
+  <img width="640" height="640" alt="Escapees Cover" src="https://github.com/user-attachments/assets/23fe3895-82a8-4007-a623-7c678e9241c0" />
+  Escapees on itch.io
+</a>
+<hr>
+
 A game for the [LOWREZJAM 2026](https://itch.io/jam/lowrezjam-2026)
 
 **Requirement**: 64x64 screen
